@@ -12,7 +12,7 @@ pokemons = [
 def index():
     return render_template(
         'index.html',
-        titulo='Pokédex',
+        titulo='PRODUTOS',
         pokemons=pokemons
     )
 
